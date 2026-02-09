@@ -1,0 +1,122 @@
+# Robots.txt per NEXSUS Evolution Future
+# Ottimizzato per SEO e indicizzazione
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://[username].github.io/nexsus-evolution-future/sitemap.xml
+
+# Crawl-delay per evitare sovraccarico
+Crawl-delay: 1
+
+# Direttive specifiche per i principali bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Bot social media
+User-agent: facebookexternalhit/1.1
+Allow: /
+
+User-agent: Twitterbot/1.0
+Allow: /
+
+# Bot per preview link
+User-agent: LinkedInBot/1.0
+Allow: /
+
+User-agent: SkypeUriPreview
+Allow: /
+
+User-agent: WhatsApp/2.0
+Allow: /
+
+# Blocca bot indesiderati
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MajesticSEO
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Blocca scraper aggressivi
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: Mail.RU_Bot
+Disallow: /
+
+# Informazioni aggiuntive per i motori di ricerca
+# Host: [username].github.io
+
+# NEXSUS Evolution Future
+# Next Level - Vision - Strategy - Future
+# Community - Academy - Coaching - Networking
+# La tua scintilla si chiama NEXSUS
+
+# Contatti:
+# Email: evolutionacademy2026@virgilio.it
+# WhatsApp: 3474429091
+
+# Social Media:
+# Facebook: https://facebook.com/nexsus
+# Instagram: https://instagram.com/nexsus
+# TikTok: https://tiktok.com/@nexsus
+# Telegram: https://t.me/nexsus
+# YouTube: https://youtube.com/@nexsus

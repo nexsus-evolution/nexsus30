@@ -1,0 +1,148 @@
+{
+  "name": "nexsus-evolution-future",
+  "version": "1.0.0",
+  "description": "NEXSUS Evolution Future - Next Level, Vision, Strategy, Future. Community, Academy, Coaching, Networking - La tua scintilla si chiama NEXSUS",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "echo 'Deploy to your preferred platform'",
+    "test": "echo 'Testing NEXSUS Evolution Future'",
+    "lint": "echo 'Linting complete'",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "nexsus",
+    "evolution",
+    "future",
+    "community",
+    "academy",
+    "coaching",
+    "networking",
+    "pwa",
+    "responsive",
+    "javascript",
+    "css3",
+    "html5"
+  ],
+  "author": {
+    "name": "NEXSUS Team",
+    "email": "evolutionacademy2026@virgilio.it",
+    "url": "https://nexsus-evolution-future.netlify.app"
+  },
+  "license": "Proprietary",
+  "homepage": "https://nexsus-evolution-future.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/nexsus-evolution-future.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/nexsus-evolution-future/issues",
+    "email": "evolutionacademy2026@virgilio.it"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "config": {
+    "nexsus": {
+      "version": "1.0.0",
+      "build": "production",
+      "features": {
+        "pwa": true,
+        "offline": true,
+        "responsive": true,
+        "animations": true,
+        "chatbot": true,
+        "admin": true,
+        "payments": true,
+        "territorial": true
+      }
+    }
+  },
+  "nexsus": {
+    "title": "NEXSUS Evolution Future",
+    "subtitle": "Next Level - Vision - Strategy - Future",
+    "description": "Community, Academy, Coaching, Networking, Collabora con NEXSUS",
+    "motto": "La tua scintilla si chiama NEXSUS",
+    "contact": {
+      "whatsapp": "3474429091",
+      "email": "evolutionacademy2026@virgilio.it"
+    },
+    "admin": {
+      "password": "EVOLUTIONnexsusTEAM2026@",
+      "verification": "admin autorizzato giuliano caratelli",
+      "reset_email": "evolutionacademy2026@virgilio.it"
+    },
+    "pricing": {
+      "basic": 69,
+      "premium": 149,
+      "elite": 199,
+      "elegance": 249
+    },
+    "social": {
+      "facebook": "https://facebook.com/nexsus",
+      "instagram": "https://instagram.com/nexsus",
+      "tiktok": "https://tiktok.com/@nexsus",
+      "telegram": "https://t.me/nexsus",
+      "youtube": "https://youtube.com/@nexsus"
+    },
+    "sections": [
+      "HOME",
+      "TALK RECORD NEXSUS",
+      "CONTATTI MANAGER E SEGRETERIA, SOCIAL NETWORK NEXSUS",
+      "LIBRERIE NEXSUS",
+      "ASSISTENTE ALISON AI",
+      "COMMUNITY NEXSUS",
+      "ACADEMY NEXSUS",
+      "COACHING NEXSUS",
+      "NETWORKING NEXSUS",
+      "COLLABORA CON NEXSUS",
+      "FEEDBACK E NEW LETTER NEXSUS",
+      "VINCI & PREMIATI CON NEXSUS",
+      "APP NEXSUS",
+      "PROJECT ABBONAMENTI E PAGAMENTI NEXSUS",
+      "SEZIONI TERRITORIALI",
+      "PANEL ADMIN NEXSUS"
+    ],
+    "features": {
+      "logo_animations": ["waveColors", "hola"],
+      "matrix_colors": ["#32ff32", "#00ffff"],
+      "gradient": "linear-gradient(90deg, #2aff40 0%, #ffd21a 20%, #00c8ff 40%, #0070ff 55%, #9c27ff 70%, #ff7b00 85%, #f9ff00 100%)",
+      "auto_hide_menu": 20000,
+      "territorial_sections": 50,
+      "performance_target": "1M+ clicks",
+      "duration_target": "2+ years"
+    }
+  },
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "manifest.json",
+    "sw.js",
+    "README.md",
+    "_config.yml",
+    ".nojekyll",
+    "netlify.toml",
+    "vercel.json",
+    "package.json"
+  ],
+  "directories": {
+    "doc": "./",
+    "test": "./",
+    "example": "./"
+  }
+}

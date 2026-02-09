@@ -1,0 +1,131 @@
+{
+  "name": "NEXSUS Evolution Future",
+  "short_name": "NEXSUS",
+  "description": "Community, Academy, Coaching, Networking - La tua scintilla si chiama NEXSUS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#2aff40",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "it",
+  "categories": ["business", "education", "networking", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' fill='%23000'/><text x='96' y='120' font-size='120' text-anchor='middle' fill='%232aff40'>🚀</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='%23000'/><text x='256' y='320' font-size='320' text-anchor='middle' fill='%232aff40'>🚀</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect width='1280' height='720' fill='%23000'/><text x='640' y='360' font-size='48' text-anchor='middle' fill='%232aff40'>NEXSUS Evolution Future</text></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "NEXSUS Evolution Future - Desktop View"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 750 1334'><rect width='750' height='1334' fill='%23000'/><text x='375' y='667' font-size='32' text-anchor='middle' fill='%232aff40'>NEXSUS Mobile</text></svg>",
+      "sizes": "750x1334",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "NEXSUS Evolution Future - Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Community",
+      "short_name": "Community",
+      "description": "Accedi alla Community NEXSUS",
+      "url": "/#community",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' fill='%23000'/><text x='48' y='60' font-size='60' text-anchor='middle' fill='%232aff40'>👥</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Academy",
+      "short_name": "Academy",
+      "description": "Accedi all'Academy NEXSUS",
+      "url": "/#academy",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' fill='%23000'/><text x='48' y='60' font-size='60' text-anchor='middle' fill='%2300c8ff'>🎓</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Coaching",
+      "short_name": "Coaching",
+      "description": "Accedi al Coaching NEXSUS",
+      "url": "/#coaching",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' fill='%23000'/><text x='48' y='60' font-size='60' text-anchor='middle' fill='%239c27ff'>💪</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "ALISON AI",
+      "short_name": "ALISON",
+      "description": "Chatta con ALISON AI",
+      "url": "/#alison",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' fill='%23000'/><text x='48' y='60' font-size='60' text-anchor='middle' fill='%23ff7b00'>🤖</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing-client-navigate",
+  "protocol_handlers": [
+    {
+      "protocol": "web+nexsus",
+      "url": "/?action=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "text/plain": [".txt"],
+        "application/pdf": [".pdf"]
+      }
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
